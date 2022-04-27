@@ -1,0 +1,18 @@
+.auto &.ticket new {params}={init}
+{-mentions}
+{redirect:704597863811776573}
+```
+*** 00-{chanid} ***
+Ersteller: {user} ({/user})
+Zugewiesen:
+Anliegen: {params}
+Antwort:
+```
+{ars:ticketFeedback}
+{del}
+
+
+
+.auto ticketFeedback={init}
+{arslock}
+{user}, dein Ticket wurde erfolgreich abgespeichert.
